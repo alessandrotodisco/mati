@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+html{scroll-behavior:smooth}
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+h1{
+    font-family: "GothamMedium";
+}
+
+h4{
+    font-family: "Titillium";
+}
+
+.container, .container-flex{
+    overflow:overlay
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.center-X{
+    text-align: center;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.leftCenter {
+    display: inline-block;
+    text-align: left;
+}
+
+.fullPage{
+    height: 100%;
+}
+
+.extraSpaceXL{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.extraSpaceL{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.extraSpaceL{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cenX {
+    text-align: center;
+}
+
+/* Suitable for mobile devices */
+
+
+@media (max-width: 767px) {
+
+}

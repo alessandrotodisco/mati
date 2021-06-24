@@ -1,0 +1,101 @@
+<!--Author: Template Stock
+Author URL: http://templatestock.co
+-->
+<!DOCTYPE html>
+<script src="./js/script.js"></script>
+<html>
+	<head>
+		<title>MATI | Contatti</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+		<meta name="keywords" content="Onepage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+																	 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
+		
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				getMenu("contatti");
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					//$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="header" id="head">	
+			<div class="container"> 
+				<div class="header-top">
+					<div class="logo">
+						<a href="index.html"><img src="images/logo.jpg" alt=""/></a>
+						<a><img class="scritta" src="images/scritta.png" alt=""/></a>
+					</div>
+					<div id="myMenu" class="top-menu"></div>
+					<!--<div class="top-menu">
+						<span class="menu"></span>
+						<ul>
+							<nav class="cl-effect-5">
+								<li><a href="index.html"><span data-hover="Home">home</span></a></li>
+								<li><a href="guarnizioni.html"><span data-hover="Guarnizioni"><span>Guarnizioni</span></a></li>
+								<li><a href="scambiatori.html"><span data-hover="Scambiatori"><span>Scambiatori</span></a></li>
+								<li><a class="active" href="contatti.html"><span data-hover="Contatti">Contatti</span></a></li>
+							</nav>
+						</ul>
+					</div>-->
+					<!--script-nav-->
+					<script>
+						$("span.menu").click(function(){
+							$(".top-menu ul").slideToggle("slow" , function(){
+							});
+						});
+					</script>
+					<div class="clearfix"></div>
+				</div>  
+				<br>
+				<img style="width:100%; height: 100px;" src="images/banner4.jpg">
+			</div>     
+		</div>
+		
+		<div class="content">
+			<div class="works-section" id="work" id="work">
+				<div class="works-header">
+					<img src="images/mappa.png" style="float: left; width:50%;" alt=""/>
+					<p style="padding-left:53%;">
+						via Pizzo Camino, 2 <br>
+						24060 - Chiuduno -  BG <br>
+						info@mati-gasket.it <br>
+						<a class="social-icon" href="https://www.google.it/maps/place/Via+Pizzo+Camino,+2,+24060+P.l.i.p.+BG/@45.639305,9.8399393,734m/data=!3m2!1e3!4b1!4m5!3m4!1s0x47815cd02ec5b2ab:0xa00e531de88d1c96!8m2!3d45.639305!4d9.842128"><i class="icon1"></i></a>
+				</div>
+				
+			</div>
+		</div>
+	
+		<div class="footer-section" id="contact" id="contact">
+
+				<div class="footer-bottom">
+					<p>&copy; MATI | Martina Articoli Tecnici Industriali</a></p>
+				</div>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						/*
+						var defaults = {
+								containerID: 'toTop', // fading element id
+							containerHoverID: 'toTopHover', // fading element hover id
+							scrollSpeed: 1200,
+							easingType: 'linear' 
+						};
+						*/
+						$().UItoTop({ easingType: 'easeOutQuart' });	
+					});
+				</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+		</div>
+	</body>
+</html>
