@@ -4,10 +4,9 @@
     <h3>Materiali</h3>
     <p>Di seguito un elenco dei materiali utilizzati per la realizzazione
         di guarnizioni ed atricoli tecnici.</p>
-    <br><br>
-    <div class="row padBox-gomma">
-        <div class="col">
-            <h2>Gomma</h2>
+    <div class="row padBox-materiali">
+        <div class="col-sm">
+            <h4>Gomma</h4>
             <ul id="ul-gomma">
                 <li>NBR</li>
                 <li>SBR</li>
@@ -21,7 +20,7 @@
                 <li>SILICONE Trasparente e Rosso</li>
             </ul>
         </div>
-        <div class="col">
+        <div class="col-sm">
             <div id="carousel-gomma" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -45,21 +44,21 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    </p><br><br>
-    <h2>Gomma espansa e siliconi espansi</h2>
-    <p>
-    <ul id="ul-gomsil">
-        <li>SILICONE Espanso</li>
-        <li>EPDM Espanso</li>
-        <li>CR Espanso</li>
-        <li>NBR Espanso (anche con adesivo)</li>
-    </ul>
-    </p><br><br>
 
-    <div class="row padBox-altro">
-        <div class="col">
+        <br>
+
+        <h4>Gomma espansa e siliconi espansi</h4>
+        <ul id="ul-gomsil">
+            <li>SILICONE Espanso</li>
+            <li>EPDM Espanso</li>
+            <li>CR Espanso</li>
+            <li>NBR Espanso (anche con adesivo)</li>
+        </ul>
+
+        <br>
+
+        <div class="col-sm">
             <div id="carousel-altro" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -83,10 +82,9 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-sm">
 
-            <h2>E molti altri prodotti...</h2>
-            <p>
+            <h4>E molti altri prodotti...</h4>
             <ul id="ul-altro">
                 <li>PVC compatto e semi espanso (FOREX)</li>
                 <li>Pe e PC espanso varie densità</li>
@@ -108,8 +106,40 @@
                 <li>Feltri tecnici alte temperature</li>
                 <li>Baderne e anelli preformati per premistoppa</li>
             </ul>
-            </p>
         </div>
     </div>
 
-    <?php require('footer.php') ?>
+    <br /><br />
+
+    <h3>Lavorazioni</h3>
+    <p>Di seguito un elenco dei macchinari impiegati per la realizzazione di guarnizioni ed atricoli tecnici.</p>
+    <br><br>
+    <div class="row padBox-lavorazioni">
+        <div class="col-sm">
+            <div>
+                <h4>Taglio laser</h4>
+
+            </div>
+        </div>
+        <div class="col-sm">
+            <div id="carousel-gomma" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://www.facs.it/wp-content/uploads/2019/01/Taglio-laser.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://globalmetalsrl.it/wp-content/uploads/2016/03/azienda_slide3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php require('footer.php') ?>

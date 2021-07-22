@@ -103,7 +103,7 @@ h4 {
 }
 
 .firstDesc {
-    background-color: beige;
+    background-color: #f3f3ee;
 }
 
 .icon-first {
@@ -160,15 +160,64 @@ h4 {
 
 /* PRODUCTS */
 
-.padBox-gomma {
-    background: tomato;
+.padBox-materiali {
+    background: #ff9c47;
     padding: 40px;
     color: brown;
     box-shadow: 13px 10px brown;
 }
 
-.padBox-altro {
+.padBox-lavorazioni {
     background: burlywood;
     padding: 40px;
+    margin-bottom: 20px;
     box-shadow: -13px 10px #196387;
+}
+
+.col-sm img {
+    margin-bottom: 30px;
+}
+
+
+/* CONTACT */
+
+.contactForm {
+    padding: 30px 20px;
+    background: beige;
+    border: 2px dotted #b4b487;
+    border-radius: 2px;
+    font-family: 'Raleway';
+}
+
+.submitForm {
+    text-align: right;
+    display: block;
+    padding: 5px 15px;
+}
+
+.form-control {
+    background-color: #efefdc;
+}
+
+.form-label {
+    color: #6d6d54;
+}
+
+.submitForm>.btn {
+    background-color: #b3b389;
+}
+
+.submitForm>.btn:hover {
+    background-color: #a2a281;
+}
+
+.submitForm>.btn:not(:disabled):not(.disabled):active {
+    background-color: #717148;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #efefdc;
+    border-color: #b4b487;
+    box-shadow: 0 0 0 0.2rem #cbcbac;
 }

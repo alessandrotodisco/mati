@@ -35,7 +35,7 @@
     <div class="row">
         <div class="col extraSpacePadBox">
             <div class="row padBox bg-mat">
-                <a class="link-padBox" href="/prodotti.php/#mat">
+                <a class="link-padBox" href="/products.php">
                 </a>
             </div>
             <div class="row padBoxTot">
@@ -46,7 +46,7 @@
 
         <div class="col extraSpacePadBox">
             <div class="row padBox bg-oring">
-                <a class="link-padBox" href="/prodotti.php/#or">
+                <a class="link-padBox" href="/o-ring.php">
                 </a>
             </div>
             <div class="row padBoxTot">
@@ -57,7 +57,7 @@
     </div>
     <div class="row">
         <div class="col extraSpacePadBox">
-            <a class="link-padBox" href="/prodotti.php/#matPlastiche">
+            <a class="link-padBox" href="/plastic_materials.php">
             <div class="row padBox bg-matPlastiche">
                 </a>
             </div>
@@ -69,7 +69,7 @@
 
         <div class="col extraSpacePadBox">
             <div class="row padBox bg-it">
-                <a class="link-padBox" href="/prodotti.php/#or">
+                <a class="link-padBox" href="/thermal_insulator.php">
                 </a>
             </div>
             <div class="row padBoxTot">
