@@ -28,6 +28,11 @@
     <link rel="stylesheet" type="text/css" href="/css/footer.css" />
     <link rel="stylesheet" type="text/css" href="/css/scrollbar.css">
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+
 </head>
 
 <body>
@@ -38,7 +43,7 @@
                     <div class="row">
                         <div class="col"><i class="fas fa-phone"></i> +39 0123 456789</div>
                         <div class="col"><i aria-hidden="true" class="far fa-envelope"></i> info@mati.it</div>
-                        <div class="col"><i aria-hidden="true" class="far fa-clock"></i> Lun - Ven: 8:30 - 18:00</div>
+                        <div class="col"><i aria-hidden="true" class="far fa-clock"></i> Lun-Ven: 8:30 - 18:00</div>
                     </div>
                 </div>
             </div>
@@ -49,31 +54,24 @@
                 <a class="navbar-brand" href="/">
                     <div class="brand-logo">
                         <img class="logo-navbar" src="/img/logo.jpg" />
-                        <span class="name-navbar">Martina Articoli Tecnici Industriali</span>
+                        <!-- <span class="name-navbar">Martina Articoli Tecnici Industriali</span> -->
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link" href="/prodotti.php">Prodotti</a>
+                            <a class="nav-link" href="/products.php">Prodotti</a>
                         </li>
+                    
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Materiali</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">O-ring</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Materie Plastiche</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Isolanti termici</a>
+                            <a class="nav-link" href="/contacts.php">Contatti</a>
                         </li>
                     </ul>
                 </div>

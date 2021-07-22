@@ -46,21 +46,12 @@
     }
 </style>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Untitled</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-</head>
 
-<body>
     <div class="photo-gallery">
         <div class="container">
             <div class="intro">
                 <h2 class="text-center">Alcuni nostri prodotti</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                <p class="text-center">L'azienda MATI opera nel settore della produzione di articoli tecnici industriali, realizzando guarnizioni su disegno o progetto del cliente ed utilizzando varie tecnologie come il taglio water-jet, plotter da taglio con lama oscillante, fustellatura, stampaggio ed estrusione di profili, senza tralasciare alcune lavorazioni manuali come il taglio e giunzione dei profili estrusi per la costruzione di guarnizioni con grandi dimensioni. Sono molte le materie prime trattate. Tutto questo con consolidata esperienza ed un costante aggiornamento per poter offrire al cliente prodotti altamente personalizzati.</p>
             </div>
             <div class="row photos">
                 <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="https://source.unsplash.com/400x400?trees" data-lightbox="photos"><img class="img-fluid" src="https://source.unsplash.com/400x400?trees"></a></div>
@@ -79,4 +70,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     </div>
 </div>
-</body>
+
+<?php require('footer.php') ?>

@@ -1,5 +1,14 @@
+.navbar {
+    margin: 40px auto;
+    padding: 0;
+}
+
 .logo-navbar {
     width: 150px;
+}
+
+.navbar-collapse {
+    flex: initial;
 }
 
 .brand-logo {
@@ -15,11 +24,6 @@
     text-align: center;
 }
 
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
-    display: block;
-    padding: 0;
-}
-
 .info-top {
     margin-bottom: 10px;
     padding: 12px 0;
@@ -29,16 +33,28 @@
     color: white;
 }
 
-.container-infoTop{
-    margin: 0 20px;
+.container-infoTop {
+    max-width: 590px;
+    font-weight: 100;
+    font-family: monospace;
+    font-size: 13px;
 }
 
 @media (max-width: 991px) {
-    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
         display: flex;
         flex-wrap: inherit;
         align-items: center;
         justify-content: space-between;
+    }
+    .navbar-collapse {
+        flex: none;
     }
 }
 
