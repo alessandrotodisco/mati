@@ -1,4 +1,34 @@
-<?php require('header.php');
+<?php require('header.php') ?>
+
+<li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link "href="/products.php">Produzione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active"  aria-current="page" href="/plastic_materials.php">Materie plastiche</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/o-ring.php">O-ring</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacts.php">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <?php
 
 if(isset($_POST['submit'])){
     $to = "info@mati-gasket.it"; // this is your Email address
@@ -31,7 +61,9 @@ if(isset($_POST['submit'])){
 
 <div class="container">
     <div class="container-fluid">
+        <div class="gmapsImg">
 
+        </div>
         <div class="row">
             <div class="contactPadBox col-lg-4">
                 <h5 class="title-sniglet">Azienda</h5>
@@ -39,9 +71,7 @@ if(isset($_POST['submit'])){
                 <p>P.IVA: 04396620165</p>
                 <p>
                     <span>Phone:</span>
-                    <a href="tel:+39">+39</a>
-                    <br>
-                    <span>Fax: +39 </span>
+                    <a href="tel:+39">+39 035 1977 0835</a>
                 </p>
                 <p>
                     <span>Email: </span>

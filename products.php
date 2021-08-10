@@ -1,9 +1,38 @@
 <?php require('header.php') ?>
 
+<li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active"  aria-current="page" href="/products.php">Produzione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/plastic_materials.php">Materie plastiche</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/o-ring.php">O-ring</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacts.php">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 <div class="container">
     <h3>Materiali</h3>
     <p>Di seguito un elenco dei materiali utilizzati per la realizzazione
-        di guarnizioni ed atricoli tecnici.</p>
+        di guarnizioni ed articoli tecnici.</p>
+        <br/>
     <div class="row padBox-materiali">
         <div class="col-sm">
             <h4>Gomma</h4>
@@ -109,10 +138,10 @@
         </div>
     </div>
 
-    <br /><br />
+    <br /><br /> <br /><br />
 
     <h3>Lavorazioni</h3>
-    <p>Di seguito un elenco dei macchinari impiegati per la realizzazione di guarnizioni ed atricoli tecnici.</p>
+    <p>Di seguito un elenco dei macchinari impiegati per la realizzazione di guarnizioni ed articoli tecnici.</p>
     <br><br>
     <div class="row padBox-lavorazioni">
         <div class="col-sm">

@@ -1,11 +1,39 @@
 <?php require('header.php') ?>
 
+<li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link "href="/products.php">Produzione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active"  aria-current="page" href="/plastic_materials.php">Materie plastiche</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/o-ring.php">O-ring</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacts.php">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
 <div class="container">
     <h3>Materie Plastiche</h3>
     <p>La MATI produce atricoli torniti, fresati o da pantografo in materiali plastici tecnici per applicazioni industriali in diversi settori.</p>
     <p>Alcune delle materie prime utilizzate sono le seguenti:</p>
-
-    <div class="row">
+    <br/>
+    <div class="row padBox-materiali">
         <div class="col-sm">
             <ul>
                 <li>PA6 + PA6+MOS</li>

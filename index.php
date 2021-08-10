@@ -1,4 +1,31 @@
 <?php require('header.php') ?>
+<li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/products.php">Produzione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/plastic_materials.php">Materie plastiche</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/o-ring.php">O-ring</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contacts.php">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 <?php require('slider.php') ?>
 
@@ -41,6 +68,7 @@
             <div class="row padBoxTot">
                 <h3>Materiali</h3>
                 <p>Materiali utilizzati per la realizzazione di guarnizioni ed atricoli tecnici.</p>
+                <a href="/products.php" class="btn btn-dark btn-section">Scopri...</a>
             </div>
         </div>
 
@@ -52,6 +80,7 @@
             <div class="row padBoxTot">
                 <h3>O-ring</h3>
                 <p>Gli O-Ring sono elementi semplici ma con un impiego molto diffuso per la tenuta negli elementi di giunzione in impianti idraulici e pneumatici, impedendo/limitando le perdite di fluido.</p>
+                <a href="/o-ring.php" class="btn btn-dark btn-section">Scopri...</a>
             </div>
         </div>
     </div>
@@ -64,6 +93,7 @@
             <div class="row padBoxTot">
                 <h3>Materie Plastiche</h3>
                 <p>Articoli torniti, fresati o da pantografo in materiali plastici tecnici per applicazioni industriali in diversi settori</p>
+                <a href="/plastic_materials.php" class="btn btn-dark btn-section">Scopri...</a>
             </div>
         </div>
 
@@ -75,6 +105,7 @@
             <div class="row padBoxTot">
                 <h3>Isolanti Termici</h3>
                 <p>Piani isolanti per presse della gomma/plastica in materiali selezionati e testati sul campo con risultati eccellenti, il nostro MT260-M e MT220-Y.</p>
+                <a href="/thermal_insulator.php" class="btn btn-dark btn-section">Scopri...</a>
             </div>
         </div>
     </div>

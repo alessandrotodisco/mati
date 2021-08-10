@@ -4,9 +4,16 @@
     color: white;
     padding: 30px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
-.footerEmail {
+.footerLink {
     color: #e4ff00;
+    text-decoration: none;
+}
+
+
+.footerLink:hover {
+    color: #ffee00;
+    text-decoration: none;
 }

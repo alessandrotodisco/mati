@@ -1,9 +1,37 @@
 <?php require('header.php') ?>
 
+<li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link "href="/products.php">Produzione</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  aria-current="page" href="/plastic_materials.php">Materie plastiche</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/o-ring.php">O-ring</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link"  aria-current="page" href="/contacts.php">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 <div class="container">
     <h3>O-ring</h3>
     <p>Gli O-Ring sono elementi semplici ma con un impiego molto diffuso per la tenuta negli elementi di giunzione in impianti idraulici e pneumatici, impedendo/limitando le perdite di fluido.</p>
-    <div class="row">
+    <br/>
+    <div class="row padBox-materiali">
         <div class="col-sm">
             <p>La tenuta può essere statica, quando le parti non si muovo l'una rispetto all'altra, o dinamica, quando si muovono.</p>
             <p>

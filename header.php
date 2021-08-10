@@ -40,9 +40,10 @@
             <div class="info-top">
                 <div class="container container-infoTop">
                     <div class="row">
-                        <div class="col"><i class="fas fa-phone"></i> +39 0123 456789</div>
+                        <!--
+                         <div class="col"><i class="fas fa-phone"></i> +39 0123 456789</div>
                         <div class="col"><i aria-hidden="true" class="far fa-envelope"></i> info@mati.it</div>
-                        <div class="col"><i aria-hidden="true" class="far fa-clock"></i> Lun-Ven: 8:30 - 18:00</div>
+                        <div class="col"><i aria-hidden="true" class="far fa-clock"></i> Lun-Ven: 8:30 - 18:00</div>-->
                     </div>
                 </div>
             </div>
@@ -61,30 +62,4 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/">Home</a>
-                        </li>
                         
-                        <li class="nav-item">
-                            <a class="nav-link" href="/products.php">Prodotti</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/plastic_materials.php">Materie plastiche</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="/o-ring.php">O-ring</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contacts.php">Contatti</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
