@@ -5,10 +5,7 @@
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link "href="/products.php">Produzione</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"  href="/plastic_materials.php">Materie plastiche</a>
+                            <a class="nav-link "href="/materiali.php">Materiali</a>
                         </li>
                         
                         <li class="nav-item">
@@ -18,7 +15,10 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="/thermal_insulator.php">Isolanti termici</a>
                         </li>
-                    
+                        
+                        <li class="nav-item">
+                            <a class="nav-link"  href="/produzioni.php">Produzioni</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/contacts.php">Contatti</a>
                         </li>
@@ -29,10 +29,10 @@
     </header>
 
 <div class="container">
-    <h3>Isolanti termici</h3>
+    <h2  class="pageTitle">Isolanti termici</h2>
     <p>Con esperienza di oltre vent’anni realizziamo piani isolanti per presse della gomma/plastica in materiali selezionati e testati sul campo con risultati eccellenti, il nostro MT260-M e MT220-Y.</p>
     <br/>
-    <div class="row padBox-materiali">
+    <div class="row padBox-container padBox-it">
         <div class="col-sm">
             <p>MT260-M è un ottimo prodotto resistente alle alte temperature sino a 260° C con un’ottima resistenza meccanica alla compressione che raggiunge 4500 kg/cm2, si presta molto come isolante per presse nello stampaggio della gomma ma anche come “cappotto” per il contenimento o regolazione della temperatura stampo. Questa caratteristica permette di utilizzarlo anche in campi diversi come la termoformatura del legno o di feltri accoppiati per il settore automotive e dove c’è una particolare attenzione nell’ evitare la dispersione termica e di conseguenza spreco economico.</p>
         </div>

@@ -1,39 +1,39 @@
 <?php require('header.php') ?>
 
-<li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link "href="/products.php">Produzione</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="/plastic_materials.php">Materie plastiche</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="/o-ring.php">O-ring</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contacts.php">Contatti</a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="/materiali.php">Materiali</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/o-ring.php">O-ring</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/produzioni.php">Produzioni</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/contacts.php">Contatti</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
-    <?php
+<?php
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
     $to = "info@mati-gasket.it"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
-    
+
     $first_name = $_POST['first_name'];
     $last_name = $_POST['last_name'];
 
@@ -42,24 +42,25 @@ if(isset($_POST['submit'])){
 
     echo $first_name . " " . $last_name . "\n" . $company . "\n" . $text;
 
-    
+
     $subject = "Form submission";
     $subject2 = "Copia dell'email inviata a MATI";
-    
-    $message = "Da: ". $first_name . " " . $last_name . "Azienda: " . $company . " messaggio:" . "\n\n" . $text;
+
+    $message = "Da: " . $first_name . " " . $last_name . "Azienda: " . $company . " messaggio:" . "\n\n" . $text;
     $message2 = "Ecco la tua copia del messaggio " . $first_name . " " . $last_name . "\nAzienda: " . $company . "\n\n" . $text;
-    
+
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    
+    mail($to, $subject, $message, $headers);
+    mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
+
     echo "Email inviata. A breve verrai ricontattato, grazie.";
-    }
+}
 ?>
 
 
 <div class="container">
+    <h2 class="pageTitle">Contatti</h2>
     <div class="container-fluid">
         <div class="gmapsImg">
 

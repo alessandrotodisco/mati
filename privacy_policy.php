@@ -4,10 +4,7 @@
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="/products.php">Produzione</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/plastic_materials.php">Materie plastiche</a>
+                            <a class="nav-link" href="/materiali.php">Materiali</a>
                         </li>
                         
                         <li class="nav-item">
@@ -16,6 +13,9 @@
                         
                         <li class="nav-item">
                             <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/produzioni.php">Produzioni</a>
                         </li>
                     
                         <li class="nav-item">

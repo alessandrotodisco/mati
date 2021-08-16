@@ -4,12 +4,8 @@
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link" href="/products.php">Produzione</a>
+                            <a class="nav-link" href="/materiali.php">Materiali</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/plastic_materials.php">Materie plastiche</a>
-                        </li>
-                        
                         <li class="nav-item">
                             <a class="nav-link" href="/o-ring.php">O-ring</a>
                         </li>
@@ -17,7 +13,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
                         </li>
-                    
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/produzioni.php">Produzioni</a>
+                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="/contacts.php">Contatti</a>
                         </li>
@@ -62,16 +62,29 @@
     <div class="row">
         <div class="col extraSpacePadBox">
             <div class="row padBox bg-mat">
-                <a class="link-padBox" href="/products.php">
+                <a class="link-padBox" href="/materiali.php">
                 </a>
             </div>
             <div class="row padBoxTot">
                 <h3>Materiali</h3>
                 <p>Materiali utilizzati per la realizzazione di guarnizioni ed atricoli tecnici.</p>
-                <a href="/products.php" class="btn btn-dark btn-section">Scopri...</a>
+                <a href="/materiali.php" class="btn btn-dark btn-section">Scopri...</a>
             </div>
         </div>
-
+        <div class="col extraSpacePadBox">
+            <a class="link-padBox" href="/produzioni.php">
+            <div class="row padBox bg-matPlastiche">
+                </a>
+            </div>
+            <div class="row padBoxTot">
+                <h3>Produzioni</h3>
+                <p>Articoli torniti, fresati o da pantografo in materiali plastici tecnici per applicazioni industriali in diversi settori</p>
+                <a href="/produzioni.php" class="btn btn-dark btn-section">Scopri...</a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        
         <div class="col extraSpacePadBox">
             <div class="row padBox bg-oring">
                 <a class="link-padBox" href="/o-ring.php">
@@ -81,19 +94,6 @@
                 <h3>O-ring</h3>
                 <p>Gli O-Ring sono elementi semplici ma con un impiego molto diffuso per la tenuta negli elementi di giunzione in impianti idraulici e pneumatici, impedendo/limitando le perdite di fluido.</p>
                 <a href="/o-ring.php" class="btn btn-dark btn-section">Scopri...</a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col extraSpacePadBox">
-            <a class="link-padBox" href="/plastic_materials.php">
-            <div class="row padBox bg-matPlastiche">
-                </a>
-            </div>
-            <div class="row padBoxTot">
-                <h3>Materie Plastiche</h3>
-                <p>Articoli torniti, fresati o da pantografo in materiali plastici tecnici per applicazioni industriali in diversi settori</p>
-                <a href="/plastic_materials.php" class="btn btn-dark btn-section">Scopri...</a>
             </div>
         </div>
 

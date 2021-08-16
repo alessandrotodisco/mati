@@ -84,6 +84,11 @@ h4 {
 
 /* Personalizzazioni */
 
+.pageTitle{
+    font-weight: 700;
+    color: #313437;
+    padding-bottom: 40px;
+}
 .titleBox {
     margin: 80px;
 }
@@ -108,6 +113,10 @@ h4 {
 
 .icon-first {
     width: 80px;
+}
+
+.btn-dark{
+    background-color: #586d5c !important;
 }
 
 .carousel-inner {
@@ -157,27 +166,45 @@ h4 {
     text-shadow: 0px 0px 5px black;
 }
 
-/* HOME */
+
 .btn-section{
     width: auto;
 }
 
-/* PRODUCTS */
-
-.padBox-materiali {
-    background: #ededed;
+.padBox-container{
+    background: #f5f5f5;
     padding: 40px;
     color: black;
-    box-shadow: 13px 10px #e17c7c;
-}
-
-
-.padBox-lavorazioni {
-    background: #ededed;
-    padding: 40px;
+    margin-left: 0px !important;
     margin-bottom: 20px;
-    box-shadow: -13px 10px #196387;
+    border-radius: 3px;
 }
+
+/* COLORE BORDO INFERIORE PAGINE */
+
+.padBox-materiali {
+    border-bottom: 8px solid #e17c7c;
+}
+
+
+.padBox-produzioni {
+    border-bottom: 8px solid #196387;
+}
+
+.padBox-oring {
+    border-bottom: 8px solid #3f51b5;
+}
+
+.padBox-produzioni {
+    border-bottom: 8px solid #196387;
+}
+
+
+.padBox-it {
+    border-bottom: 8px solid #795548;
+}
+
+
 
 .col-sm img {
     margin-bottom: 30px;

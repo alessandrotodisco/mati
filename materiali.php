@@ -1,39 +1,39 @@
 <?php require('header.php') ?>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
 
-<li class="nav-item">
-                            <a class="nav-link" href="/">Home</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link active"  aria-current="page" href="/products.php">Produzione</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/plastic_materials.php">Materie plastiche</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="/o-ring.php">O-ring</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contacts.php">Contatti</a>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/materiali.php">Materiali</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/o-ring.php">O-ring</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/thermal_insulator.php">Isolanti termici</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/produzioni.php">Produzioni</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contacts.php">Contatti</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
 <div class="container">
-    <h3>Materiali</h3>
+    <h2  class="pageTitle">Materiali</h2>
     <p>Di seguito un elenco dei materiali utilizzati per la realizzazione
         di guarnizioni ed articoli tecnici.</p>
-        <br/>
-    <div class="row padBox-materiali">
+    <br />
+    <div class="row padBox-container padBox-materiali">
         <div class="col-sm">
             <h4>Gomma</h4>
             <ul id="ul-gomma">
@@ -137,38 +137,63 @@
             </ul>
         </div>
     </div>
+</div>
 
-    <br /><br /> <br /><br />
+<br /><br />
 
-    <h3>Lavorazioni</h3>
-    <p>Di seguito un elenco dei macchinari impiegati per la realizzazione di guarnizioni ed articoli tecnici.</p>
-    <br><br>
-    <div class="row padBox-lavorazioni">
+<div class="container">
+    <h2  class="pageTitle" class="pageTitle">Materie Plastiche</h2>
+    <p>La MATI produce atricoli torniti, fresati o da pantografo in materiali plastici tecnici per applicazioni industriali in diversi settori.</p>
+    <p>Alcune delle materie prime utilizzate sono le seguenti:</p>
+    <br />
+    <div class="row padBox-container padBox-materiali">
         <div class="col-sm">
-            <div>
-                <h4>Taglio laser</h4>
-
-            </div>
+            <ul>
+                <li>PA6 + PA6+MOS</li>
+                <li>PA6G - PA6G+MOS</li>
+                <li>PA66</li>
+                <li>PA66 + GF30</li>
+                <li>POM C</li>
+                <li>POM C + PTFE</li>
+                <li>PET</li>
+                <li>PET + PTFE</li>
+                <li>PTFE + PTFE caricati</li>
+                <li>PVDF</li>
+                <li>RULON</li>
+                <li>PEEK</li>
+                <li>PVC RIGIDO</li>
+                <li>POLIPROPILENE</li>
+                <li>PE BASSA DENSITÁ</li>
+                <li>PE ALTA DENSITÁ</li>
+            </ul>
         </div>
         <div class="col-sm">
             <div id="carousel-gomma" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="https://www.facs.it/wp-content/uploads/2019/01/Taglio-laser.jpg" class="d-block w-100" alt="...">
+                        <img src="img/banner1.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="https://globalmetalsrl.it/wp-content/uploads/2016/03/azienda_slide3.jpg" class="d-block w-100" alt="...">
+                        <img src="img/banner2.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <p>Su richiesta sono disponibili materiali antistatici, conducibili per l'industria elettronica o detectabili per l'industria alimentare.</p>
     </div>
 </div>
+
 
 <?php require('footer.php') ?>
