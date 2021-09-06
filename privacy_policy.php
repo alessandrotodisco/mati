@@ -362,7 +362,7 @@
                     <ul>
                         <li>Tramite e-mail: info@mati-gasket.it</li>
                         <li>Tramite PEC: <a href="mailto: info@mati-gasket.it">info@mati-gasket.it</a></li>
-                        <li>Utilizzando il modulo di contatto sul nostro sito: <a href="https://www.mati-gasket.it/contacts.php"> Modulo di contatto</a>
+                        <li>Utilizzando il modulo di contatto sul nostro sito: <a href="/contacts.php"> Modulo di contatto</a>
                         </li>
                     </ul>
                 </div>

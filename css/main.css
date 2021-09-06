@@ -1,3 +1,8 @@
+@font-face {
+    font-family: titleLogoFont;
+    src: url('/SerpentineStd-Bold.otf');
+  }
+
 body,
 html {
     margin: 0;
@@ -94,6 +99,7 @@ h4 {
 }
 
 .h1MainTitle {
+    font-family: titleLogoFont;
     font-size: 4.5rem;
     color: yellowgreen;
     letter-spacing: 30px;
