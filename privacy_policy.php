@@ -360,8 +360,8 @@
                     <h5 class="bold">Contattaci</h5>
                     <p>In caso di domande sulla presente Informativa sulla privacy, si prega di contattarci:</p>
                     <ul>
-                        <li>Tramite e-mail: info@mati-gasket.it</li>
-                        <li>Tramite PEC: <a href="mailto: info@mati-gasket.it">info@mati-gasket.it</a></li>
+                        <li>Tramite e-mail: <a href="mailto: info@mati-gasket.it">info@mati-gasket.it</a></li>
+                        <li>Tramite PEC: martina.massimo@pec.it</li>
                         <li>Utilizzando il modulo di contatto sul nostro sito: <a href="/contacts.php"> Modulo di contatto</a>
                         </li>
                     </ul>

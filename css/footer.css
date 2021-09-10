@@ -1,6 +1,6 @@
 .footer {
-    background-color: #292929;
-    background-color: #6ca04e;
+    background-color: #1B7B56;
+    background-color: #1B7B56;
     color: white;
     padding: 30px;
     text-align: center;
@@ -8,12 +8,13 @@
 }
 
 .footerLink {
-    color: #e4ff00;
+    color: white;
     text-decoration: none;
 }
 
 
 .footerLink:hover {
-    color: #ffee00;
+    color: white;
     text-decoration: none;
+		font-weight: bold;
 }

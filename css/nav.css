@@ -1,10 +1,10 @@
 .navbar {
-    margin: 40px auto;
+    margin: 10px auto;
     padding: 0;
 }
 
 .logo-navbar {
-    width: 150px;
+    width: 350px;
 }
 
 .navbar-collapse {
@@ -27,7 +27,7 @@
 .info-top {
     margin-bottom: 10px;
     padding: 12px 0;
-    background: #6ca04e;
+    background: #1B7B56;
     margin: 0;
     text-align: center;
     color: white;

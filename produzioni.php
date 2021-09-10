@@ -36,6 +36,9 @@
         <div class="col-sm">
             <div>
                 <h4>Taglio Water-jet</h4>
+                <h4>Fustellatura</h4>
+                <h4>Tranciatura</h4>
+                <h4>Plotter taglio lama</h4>
 
             </div>
         </div>
@@ -83,6 +86,7 @@
         </div>
 
     </div>
+		
 
     <br/><br/><br/><br/>
 

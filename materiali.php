@@ -88,7 +88,7 @@
                     <div class="carousel-item active">
                         <img src="img/materiali/espansa.jpeg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Espansa</h5>
+                            <h5></h5>
                         </div>
                     </div>
                     <div class="carousel-item">

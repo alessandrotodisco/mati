@@ -53,7 +53,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="/">
                     <div class="brand-logo">
-                        <img class="logo-navbar" src="/img/logo.jpg" />
+                        <img class="logo-navbar" src="/img/logo_2.jpeg" />
                         <!-- <span class="name-navbar">Martina Articoli Tecnici Industriali</span> -->
                     </div>
                 </a>
