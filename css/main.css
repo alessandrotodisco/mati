@@ -1,0 +1,287 @@
+@font-face {
+    font-family: titleLogoFont;
+    src: url('/SerpentineStd.otf');
+  }
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+h1 {
+    font-family: "GothamMedium";
+}
+
+h4 {
+    font-family: "Titillium";
+}
+
+.container,
+.container-flex {
+    overflow: overlay
+}
+
+.center {
+    text-align: center;
+}
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.center-X {
+    text-align: center;
+}
+
+.leftCenter {
+    display: inline-block;
+    text-align: left;
+}
+
+.fullPage {
+    height: 100%;
+}
+
+.extraSpaceXL {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.extraSpaceL {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.extraSpace {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cenX {
+    text-align: center;
+}
+
+
+/* Suitable for mobile devices */
+
+@media (max-width: 767px) {}
+
+
+/* Personalizzazioni */
+
+.pageTitle{
+    font-weight: 700;
+    color: #313437;
+    padding-bottom: 40px;
+}
+.titleBox {
+    margin: 80px;
+}
+
+.h1MainTitle {
+    font-family: titleLogoFont;
+    font-size: 4.5rem;
+    color: black;
+    letter-spacing: 20px;
+    font-weight: 100;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.h2SubTitle {
+    color: #c1c1c1;
+    font-weight: 100;
+}
+
+.firstDesc {
+    background-color: #f3f3ee;
+}
+
+.icon-first {
+    width: 80px;
+}
+
+.btn-dark{
+    background-color: #1B7B56 !important;
+}
+
+.carousel-inner {
+    max-height: 400px;
+}
+
+.padBox {
+    min-height: 200px !important;
+    text-align: center;
+    /* background-color: rgb(194, 255, 235); */
+    border-radius: 5px 5px 0 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.padBoxTot {
+    background: #e8e8e8;
+    padding: 22px;
+    margin-bottom: 20px;
+}
+
+.extraSpacePadBox {
+    margin: 20px;
+}
+
+.bg-mat {
+    background-image: url('../img/banner2.jpg');
+}
+
+.bg-oring {
+    background-image: url('../img/o-ring2.jpg');
+}
+
+.bg-matPlastiche {
+    background-image: url('../img/produzione/1.jpg');
+}
+
+.bg-it {
+    background-image: url('../img/isolanti_termici/1.jpg');
+		background-size: 200px;
+		background-repeat: no-repeat;
+}
+
+.link-padBox {
+    text-decoration: none;
+    padding: 0;
+    color: white;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+.btn-section{
+    width: auto;
+}
+
+.padBox-container{
+    background: #f5f5f5;
+    padding: 40px;
+    color: black;
+    margin-left: 0px !important;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+/* COLORE BORDO INFERIORE PAGINE */
+
+.padBox-materiali {
+    border-bottom: 8px solid #e17c7c;
+}
+
+
+.padBox-produzioni {
+    border-bottom: 8px solid #196387;
+}
+
+.padBox-oring {
+    border-bottom: 8px solid #3f51b5;
+}
+
+.padBox-produzioni {
+    border-bottom: 8px solid #196387;
+}
+
+
+.padBox-it {
+    border-bottom: 8px solid #795548;
+}
+
+
+
+.col-sm img {
+    margin-bottom: 30px;
+}
+
+
+/* CONTACT */
+
+.contactForm {
+    padding: 30px 20px;
+    background: #DEEBE6;
+    border: 2px  #186E4D;
+    border-radius: 2px;
+    font-family: 'Raleway';
+}
+
+.submitForm {
+    text-align: right;
+    display: block;
+    padding: 5px 15px;
+}
+
+.form-control {
+    background-color: #efefdc;
+}
+
+.form-label {
+    color: black;
+}
+
+.submitForm>.btn {
+    background-color: #76AF99;
+}
+
+.submitForm>.btn:hover {
+    background-color: #DEEBE6;
+}
+
+.submitForm>.btn:not(:disabled):not(.disabled):active {
+    background-color: #186E4D;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #efefdc;
+    border-color: #DEEBE6;
+    box-shadow: 0 0 0 0.2rem #cbcbac;
+}
+
+
+.textNav {
+    height: auto !important;
+    background: -webkit-linear-gradient( 72deg, #186E4D, #DEEBE6 60%);
+    padding: 130px 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.textContainer {
+    padding: 40px 25px;
+    background: white;
+}
+
+.gmapsImg{
+    min-height: 400px;
+    max-height: 600px;
+    margin-bottom: 50px;
+    background-image: url(/img/gmaps.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
