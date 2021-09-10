@@ -33,7 +33,7 @@
     <p>Di seguito un elenco dei macchinari impiegati per la realizzazione di guarnizioni ed articoli tecnici.</p>
     <br/>
     <div class="row padBox-container padBox-produzioni">
-        <div class="col-sm">
+        <div class="col-sm-4">
             <div>
                 <h4>Taglio Water-jet</h4>
                 <h4>Fustellatura</h4>
@@ -42,7 +42,7 @@
 
             </div>
         </div>
-        <div class="col-sm">
+        <div class="col-sm-8">
             <div id="carousel-gomma" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">

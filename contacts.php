@@ -28,35 +28,6 @@
     </nav>
 </header>
 
-<?php
-
-if (isset($_POST['submit'])) {
-    $to = "info@mati-gasket.it"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
-
-    $company = $_POST['company'];
-    $text = $_POST['message'];
-
-    echo $first_name . " " . $last_name . "\n" . $company . "\n" . $text;
-
-
-    $subject = "Form submission";
-    $subject2 = "Copia dell'email inviata a MATI";
-
-    $message = "Da: " . $first_name . " " . $last_name . "Azienda: " . $company . " messaggio:" . "\n\n" . $text;
-    $message2 = "Ecco la tua copia del messaggio " . $first_name . " " . $last_name . "\nAzienda: " . $company . "\n\n" . $text;
-
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to, $subject, $message, $headers);
-    mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
-
-    echo "Email inviata. A breve verrai ricontattato, grazie.";
-}
-?>
 
 
 <div class="container">
@@ -67,6 +38,8 @@ if (isset($_POST['submit'])) {
 						<img class="img-fluid" src="img/gmaps2.jpg">
 					</a>
         </div>
+
+
         <div class="row">
             <div class="contactPadBox col-lg-4">
                 <h5 class="title-sniglet">Azienda</h5>
@@ -126,6 +99,38 @@ if (isset($_POST['submit'])) {
                         <button type="submit" name="submit" class="btn btn-dark">Invia</button>
                     </div>
                 </form>
+                
+                <?php
+                if (isset($_POST['submit'])) {
+                    $to = "info@mati-gasket.it"; // this is your Email address
+                    $from = $_POST['email']; // this is the sender's Email address
+
+                    $first_name = $_POST['first_name'];
+                    $last_name = $_POST['last_name'];
+
+                    $company = $_POST['company'];
+                    $text = $_POST['message'];
+
+                    /* echo $first_name . " " . $last_name . "\n" . $company . "\n" . $text; */
+
+
+                    $subject = "Form submission";
+                    $subject2 = "Copia dell'email inviata a MATI";
+
+                    $message = "Da: " . $first_name . " " . $last_name . "Azienda: " . $company . " messaggio:" . "\n\n" . $text;
+                    $message2 = "Ecco la tua copia del messaggio " . $first_name . " " . $last_name . "\nAzienda: " . $company . "\n\n" . $text;
+
+                    $headers = "From:" . $from;
+                    $headers2 = "From:" . $to;
+                    mail($to, $subject, $message, $headers);
+                    mail($from, $subject2, $message2, $headers2); // sends a copy of the message to the sender
+
+                    echo "<div class='emailSent container'>
+                        <p class='p_emailSent'>Email inviata. A breve verrai ricontattato, grazie.</p>
+                    </div>";
+                }
+                ?>
+
             </div>
         </div>
     </div>

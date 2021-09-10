@@ -16,5 +16,25 @@
 .footerLink:hover {
     color: white;
     text-decoration: none;
-		font-weight: bold;
+    font-weight: bold;
+}
+
+.padFooter{
+    margin: 20px auto;
+    display: block;
+    float: none;
+    text-align: center;
+}
+
+.staiInCentroPD{
+    margin: auto;
+    display: block !important;
+    float: none;
+    text-align: center;
+}
+
+@media (max-width: 770px) {
+    .padFooter{
+        text-align: center;
+    }
 }

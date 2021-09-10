@@ -89,6 +89,15 @@ h4 {
 
 /* Personalizzazioni */
 
+.class_asd{
+    display: contents;
+}
+
+.auto-width{
+    height: auto;
+    width: auto;
+}
+
 .pageTitle{
     font-weight: 700;
     color: #313437;
@@ -239,9 +248,18 @@ h4 {
     background-color: #efefdc;
 }
 
+.form-label{
+    font-family: monospace;
+}
+
 .form-label {
     color: black;
 }
+.form-control:focus{
+    border-color: #1b7b56 !important;
+    box-shadow: 0 0 0 0.2rem rgb(27 123 86 / 28%) !important;
+}
+
 
 .submitForm>.btn {
     background-color: #76AF99;
@@ -262,6 +280,9 @@ h4 {
     box-shadow: 0 0 0 0.2rem #cbcbac;
 }
 
+.row-materials{
+    margin-top: 50px;
+}
 
 .textNav {
     height: auto !important;
@@ -284,4 +305,22 @@ h4 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.emailSent {
+    padding: 28px 20px;
+    background-color: #b7b88b;
+    color: white;
+    margin: 40px 0;
+    border-radius: 6px;
+    font-family: monospace;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+@media (max-width: 500px) {
+    .padBox-container {
+        padding: 10px;
+    }
 }

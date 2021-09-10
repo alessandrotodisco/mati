@@ -33,12 +33,12 @@
     <p>Con esperienza di oltre vent’anni realizziamo piani isolanti per presse della gomma/plastica in materiali selezionati e testati sul campo con risultati eccellenti, il nostro MT260-M e MT220-Y.</p>
     <br/>
     <div class="row padBox-container padBox-it">
-        <div class="col-sm">
+        <div class="col-sm ">
             <p>MT260-M è un ottimo prodotto resistente alle alte temperature sino a 260° C con un’ottima resistenza meccanica alla compressione che raggiunge 4500 kg/cm2, si presta molto come isolante per presse nello stampaggio della gomma ma anche come “cappotto” per il contenimento o regolazione della temperatura stampo. Questa caratteristica permette di utilizzarlo anche in campi diversi come la termoformatura del legno o di feltri accoppiati per il settore automotive e dove c’è una particolare attenzione nell’ evitare la dispersione termica e di conseguenza spreco economico.</p>
         </div>
-        <div class="col-sm">
+        <div class="col-sm auto-width">
             <div id="carousel-gomma" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner class_asd">
                     <div class="carousel-item active">
                         <img src="img/isolanti_termici/1.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
